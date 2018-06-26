@@ -10,7 +10,8 @@ class Product(Resource):
             'products': ['Ice cream',
                         'Chocolate',
                         'Fruit',
-                        'Banana']
+                        'Banana'
+                        'apple']
         }
 api.add_resource(Product, '/')
 if __name__ == '__main__':
